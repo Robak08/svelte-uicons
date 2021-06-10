@@ -1,0 +1,14 @@
+<script>
+  export let size = "100%";
+  export let strokeWidth = 0;
+  let customClass = "";
+  export { customClass as class };
+
+  if (size !== "100%") {
+    size = size.slice(-1) === 'x' 
+          ? size.slice(0, size.length -1) + 'em'
+          : parseInt(size) + 'px';
+  }
+</script>
+
+<svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="#000" viewBox="0 0 24 24"  stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-tool-crop {customClass}"><path d="M23 18h-3V9a5.006 5.006 0 0 0-5-5H6V1a1 1 0 0 0-2 0v3H1a1 1 0 0 0 0 2h3v9a5.006 5.006 0 0 0 5 5h9v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2zM9 18a3 3 0 0 1-3-3V6h9a3 3 0 0 1 3 3v9z"/></svg>

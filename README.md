@@ -1,6 +1,6 @@
 # svelte-uicons
 
-FlatIcon's Uicons (https://www.flaticon.com/uicons) port for Svelte. 
+[FlatIcon's Uicons](https://www.flaticon.com/uicons) port for Svelte. 
 
 Currently includes Regular Rounded icons only.
 
