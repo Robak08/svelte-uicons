@@ -1,10 +1,10 @@
 {
   "name": "svelte-uicons",
-  "description": "FlatIcon Uicons svelte port",
+  "description": "FlatIcon's Uicons port for Svelte",
   "version": "0.0.1",
   "author": "robert.hamiga@gmail.com",
   "repository": {
-    "url": "robak08/svelte-uicons",
+    "url": "git+https://github.com/robak08/svelte-uicons.git",
     "type": "git"
   },
   "svelte": "src/index.js",
@@ -41,5 +41,9 @@
   ],
   "dependencies": {
     "svelte": "^3.38.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/robak08/svelte-uicons/issues"
+  },
+  "homepage": "https://github.com/robak08/svelte-uicons#readme"
 }
