@@ -28,4 +28,4 @@ npm install --save-dev svelte-uicons
 ```
 
 ## Credits
-Package heavily inspired by dylanblokhuis/svelte-feather-icons.
+Package heavily inspired by dylanblokhuis's [svelte-feather-icons](https://github.com/dylanblokhuis/svelte-feather-icons).
