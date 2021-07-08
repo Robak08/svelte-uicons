@@ -2,7 +2,7 @@
   "name": "svelte-uicons",
   "description": "FlatIcon's Uicons port for Svelte",
   "version": "0.0.1",
-  "author": "robert.hamiga@gmail.com",
+  "author": "Robert Hamiga <robert.hamiga@gmail.com>",
   "repository": {
     "url": "git+https://github.com/robak08/svelte-uicons.git",
     "type": "git"
