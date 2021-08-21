@@ -1,7 +1,7 @@
 {
 	"name": "@robakk08/svelte-evaicons",
 	"description": "Another take on svelte-eva-icons for Svelte",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "Robert Hamiga <robert.hamiga@gmail.com>",
 	"repository": {
 		"url": "git+https://github.com/Robak08/svelte-evaicons.git",
