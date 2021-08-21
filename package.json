@@ -4,7 +4,7 @@
 	"version": "0.0.1",
 	"author": "Robert Hamiga <robert.hamiga@gmail.com>",
 	"repository": {
-		"url": "git+https://github.com/robak08/svelte-evaicons.git",
+		"url": "git+https://github.com/Robak08/svelte-evaicons.git",
 		"type": "git"
 	},
 	"svelte": "src/index.js",
@@ -36,14 +36,14 @@
 	},
 	"keywords": [
 		"svelte",
-		"uicons",
+		"eva-icons",
 		"flaticon"
 	],
 	"dependencies": {
 		"svelte": "^3.38.2"
 	},
 	"bugs": {
-		"url": "https://github.com/robak08/svelte-evaicons/issues"
+		"url": "https://github.com/Robak08/svelte-evaicons/issues"
 	},
-	"homepage": "https://github.com/robak08/svelte-evaicons#readme"
+	"homepage": "https://github.com/Robak08/svelte-evaicons#readme"
 }
