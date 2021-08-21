@@ -1,4 +1,4 @@
-# svelte-uicons
+# svelte-evaicons
 
 [svelte-eva-icons remake](https://github.com/dylanblokhuis/svelte-eva-icons/blob/master/build.js) port for Svelte. 
 
@@ -6,13 +6,13 @@
 ## Install
 
 ```bash
-yarn add -D svelte-uicons
+yarn add -D svelte-evaicons
 ```
 
 or use NPM
 
 ```bash
-npm install --save-dev svelte-uicons
+npm install --save-dev svelte-evaicons
 ```
 
 ## Usage
