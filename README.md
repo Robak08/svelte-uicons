@@ -1,25 +1,24 @@
 # svelte-evaicons
 
-[svelte-eva-icons remake](https://github.com/dylanblokhuis/svelte-eva-icons/blob/master/build.js) port for Svelte. 
-
+[svelte-eva-icons](https://github.com/dylanblokhuis/svelte-eva-icons/) remake with Svelte.
 
 ## Install
 
 ```bash
-yarn add -D svelte-evaicons
+yarn add -D @robakk08/svelte-evaicons
 ```
 
 or use NPM
 
 ```bash
-npm install --save-dev svelte-evaicons
+npm install --save-dev @robakk08/svelte-evaicons
 ```
 
 ## Usage
 
 ```html
 <script>
-  import { ChessIcon, FlipHorizontalIcon, ... } from 'svelte-evaicons'
+	import { CheckmarkSquareOutlineIcon, CheckmarkSquareIcon, ... } from '@robakk08/svelte-evaicons'
 </script>
 
 <ChessIcon size="32" />
@@ -27,4 +26,5 @@ npm install --save-dev svelte-evaicons
 ```
 
 ## Credits
+
 Package heavily inspired by dylanblokhuis's [svelte-feather-icons](https://github.com/dylanblokhuis/svelte-feather-icons).
