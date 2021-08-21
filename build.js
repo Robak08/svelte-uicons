@@ -2,7 +2,7 @@ const path = require("path");
 const { pascalCase } = require("pascal-case");
 const fs = require("fs-extra");
 
-const evaicon = require("./src/outline/icons.json");
+const evaicon = require("./src/icons.json");
 const handleComponentName = (name) => name.replace(/\-(\d+)/, "$1");
 
 const component = (icon) =>
