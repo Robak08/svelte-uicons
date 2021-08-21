@@ -1,8 +1,7 @@
 # svelte-uicons
 
-[FlatIcon's Uicons](https://www.flaticon.com/uicons) port for Svelte. 
+[svelte-eva-icons remake](https://github.com/dylanblokhuis/svelte-eva-icons/blob/master/build.js) port for Svelte. 
 
-Currently includes Regular Rounded icons only.
 
 ## Install
 
@@ -20,7 +19,7 @@ npm install --save-dev svelte-uicons
 
 ```html
 <script>
-  import { ChessIcon, FlipHorizontalIcon, ... } from 'svelte-uicons'
+  import { ChessIcon, FlipHorizontalIcon, ... } from 'svelte-evaicons'
 </script>
 
 <ChessIcon size="32" />
