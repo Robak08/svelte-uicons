@@ -11,4 +11,4 @@
   }
 </script>
 
-<svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="#000" viewBox="0 0 24 24"  stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-sign-in {customClass}"><path d="M7 22H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h2a1 1 0 0 0 0-2H5a5.006 5.006 0 0 0-5 5v14a5.006 5.006 0 0 0 5 5h2a1 1 0 0 0 0-2z"/><path d="M10.462 5.293 5.875 9.879a3.007 3.007 0 0 0 0 4.242l4.586 4.586a1 1 0 1 0 1.414-1.414L7.584 13H23a1 1 0 0 0 0-2H7.583l4.293-4.293a1 1 0 1 0-1.414-1.414z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="#000" viewBox="0 0 24 24"  stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-sign-in {customClass}"><path d="M7 22H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h2a1 1 0 0 0 0-2H5a5.006 5.006 0 0 0-5 5v14a5.006 5.006 0 0 0 5 5h2a1 1 0 0 0 0-2Z"/><path d="m23 11-15.777.032a2.018 2.018 0 0 1 .326-.446l3.879-3.879a1 1 0 1 0-1.414-1.414L6.133 9.172a4 4 0 0 0 0 5.656l3.879 3.879a1 1 0 1 0 1.414-1.414l-3.879-3.879a2.01 2.01 0 0 1-.291-.382L23 13a1 1 0 0 0 0-2Z"/></svg>

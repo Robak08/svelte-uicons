@@ -11,4 +11,4 @@
   }
 </script>
 
-<svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="#000" viewBox="0 0 24 24"  stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-arrow-small-down {customClass}"><path d="M17.707 13.121a1 1 0 0 0-1.414 0L13 16.413 12.993 6a1 1 0 0 0-2 0L11 16.414l-3.293-3.293a1 1 0 1 0-1.414 1.414l3.585 3.586a3 3 0 0 0 4.243 0l3.586-3.586a1 1 0 0 0 0-1.414z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="#000" viewBox="0 0 24 24"  stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-arrow-small-down {customClass}"><path d="M17.71 12.71a1 1 0 0 0-1.42 0L13 16V6a1 1 0 0 0-2 0v10l-3.29-3.29a1 1 0 0 0-1.42 0 1 1 0 0 0 0 1.41l4.3 4.29A2 2 0 0 0 12 19a2 2 0 0 0 1.4-.59l4.3-4.29a1 1 0 0 0 .01-1.41Z"/></svg>

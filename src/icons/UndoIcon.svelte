@@ -11,4 +11,4 @@
   }
 </script>
 
-<svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="#000" viewBox="0 0 24 24"  stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-undo {customClass}"><path d="M23 24a1 1 0 0 1-1-1 6.006 6.006 0 0 0-6-6h-5.83v1.586A2 2 0 0 1 6.756 20L.877 14.121a3 3 0 0 1 0-4.242L6.756 4a2 2 0 0 1 3.414 1.414V7H15a9.01 9.01 0 0 1 9 9v7a1 1 0 0 1-1 1zM8.17 5.414l-5.879 5.879a1 1 0 0 0 0 1.414l5.879 5.879V16a1 1 0 0 1 1-1H16a7.984 7.984 0 0 1 6 2.714V16a7.008 7.008 0 0 0-7-7H9.17a1 1 0 0 1-1-1z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="#000" viewBox="0 0 24 24"  stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-undo {customClass}"><path d="M12 0a11.936 11.936 0 0 0-8 3.078V1a1 1 0 1 0-2 0v4c0 1.103.897 2 2 2h4a1 1 0 1 0 0-2H4.87A9.953 9.953 0 0 1 12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10c-5.21 0-9.492-3.908-9.959-9.09a1 1 0 0 0-1.992.18C.61 19.31 5.748 24 12 24c6.617 0 12-5.383 12-12S18.617 0 12 0Z"/></svg>
