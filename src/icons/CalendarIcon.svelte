@@ -1,14 +1,14 @@
 <script>
   export let size = "100%";
+  export let strokeWidth = 0;
   let customClass = "";
   export { customClass as class };
-  
+
   if (size !== "100%") {
     size = size.slice(-1) === 'x' 
-    ? size.slice(0, size.length -1) + 'em'
-    : parseInt(size) + 'px';
+          ? size.slice(0, size.length -1) + 'em'
+          : parseInt(size) + 'px';
   }
-  </script>
-  
-  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="currentColor" viewBox="0 0 24 24" class="evaicon evaicon-calendar {customClass}"><g data-name="Layer 2"><path d="M18 4h-1V3a1 1 0 0 0-2 0v1H9V3a1 1 0 0 0-2 0v1H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zM8 17a1 1 0 1 1 1-1 1 1 0 0 1-1 1zm8 0h-4a1 1 0 0 1 0-2h4a1 1 0 0 1 0 2zm3-6H5V7a1 1 0 0 1 1-1h1v1a1 1 0 0 0 2 0V6h6v1a1 1 0 0 0 2 0V6h1a1 1 0 0 1 1 1z" data-name="calendar"/></g></svg>
-  
+</script>
+
+<svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="#000" viewBox="0 0 24 24"  stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-calendar {customClass}"><path d="M19 2h-1V1a1 1 0 0 0-2 0v1H8V1a1 1 0 0 0-2 0v1H5a5.006 5.006 0 0 0-5 5v12a5.006 5.006 0 0 0 5 5h14a5.006 5.006 0 0 0 5-5V7a5.006 5.006 0 0 0-5-5zM2 7a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v1H2zm17 15H5a3 3 0 0 1-3-3v-9h20v9a3 3 0 0 1-3 3z"/><circle cx="12" cy="15" r="1.5"/><circle cx="7" cy="15" r="1.5"/><circle cx="17" cy="15" r="1.5"/></svg>

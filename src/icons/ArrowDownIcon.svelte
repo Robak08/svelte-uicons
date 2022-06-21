@@ -1,14 +1,14 @@
 <script>
   export let size = "100%";
+  export let strokeWidth = 0;
   let customClass = "";
   export { customClass as class };
-  
+
   if (size !== "100%") {
     size = size.slice(-1) === 'x' 
-    ? size.slice(0, size.length -1) + 'em'
-    : parseInt(size) + 'px';
+          ? size.slice(0, size.length -1) + 'em'
+          : parseInt(size) + 'px';
   }
-  </script>
-  
-  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="currentColor" viewBox="0 0 24 24" class="evaicon evaicon-arrow-down {customClass}"><g data-name="Layer 2"><path d="M12 17a1.72 1.72 0 0 1-1.33-.64l-4.21-5.1a2.1 2.1 0 0 1-.26-2.21A1.76 1.76 0 0 1 7.79 8h8.42a1.76 1.76 0 0 1 1.59 1.05 2.1 2.1 0 0 1-.26 2.21l-4.21 5.1A1.72 1.72 0 0 1 12 17z" data-name="arrow-downward"/></g></svg>
-  
+</script>
+
+<svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="#000" viewBox="0 0 24 24"  stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-arrow-down {customClass}"><path d="M18.048 17.788a1 1 0 0 0-1.414 0L13 21.419V1a1 1 0 0 0-1-1 1 1 0 0 0-1 1v20.408l-3.619-3.62A1 1 0 1 0 5.967 19.2l3.919 3.919a3 3 0 0 0 4.243 0l3.919-3.919a1 1 0 0 0 0-1.412z"/></svg>

@@ -1,14 +1,14 @@
 <script>
   export let size = "100%";
+  export let strokeWidth = 0;
   let customClass = "";
   export { customClass as class };
-  
+
   if (size !== "100%") {
     size = size.slice(-1) === 'x' 
-    ? size.slice(0, size.length -1) + 'em'
-    : parseInt(size) + 'px';
+          ? size.slice(0, size.length -1) + 'em'
+          : parseInt(size) + 'px';
   }
-  </script>
-  
-  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="currentColor" viewBox="0 0 24 24" class="evaicon evaicon-bookmark {customClass}"><g data-name="Layer 2"><path d="M6 21a1 1 0 0 1-.49-.13A1 1 0 0 1 5 20V5.33A2.28 2.28 0 0 1 7.2 3h9.6A2.28 2.28 0 0 1 19 5.33V20a1 1 0 0 1-.5.86 1 1 0 0 1-1 0l-5.67-3.21-5.33 3.2A1 1 0 0 1 6 21z" data-name="bookmark"/></g></svg>
-  
+</script>
+
+<svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="#000" viewBox="0 0 24 24"  stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-bookmark {customClass}"><path d="M20.137 24a2.8 2.8 0 0 1-1.987-.835L12 17.051l-6.15 6.118a2.8 2.8 0 0 1-3.095.609A2.8 2.8 0 0 1 1 21.154V5a5 5 0 0 1 5-5h12a5 5 0 0 1 5 5v16.154a2.8 2.8 0 0 1-1.751 2.624 2.867 2.867 0 0 1-1.112.222zM6 2a3 3 0 0 0-3 3v16.154a.843.843 0 0 0 1.437.6l6.863-6.821a1 1 0 0 1 1.41 0l6.855 6.819a.843.843 0 0 0 1.437-.6V5a3 3 0 0 0-3-3z"/></svg>

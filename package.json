@@ -1,49 +1,49 @@
 {
-	"name": "@robakk08/svelte-evaicons",
-	"description": "Another take on svelte-eva-icons for Svelte",
-	"version": "0.0.3",
-	"author": "Robert Hamiga <robert.hamiga@gmail.com>",
-	"repository": {
-		"url": "git+https://github.com/Robak08/svelte-evaicons.git",
-		"type": "git"
-	},
-	"svelte": "src/index.js",
-	"module": "index.mjs",
-	"main": "index.js",
-	"files": [
-		"src",
-		"index.mjs",
-		"index.js",
-		"index.d.ts"
-	],
-	"types": "index.d.ts",
-	"license": "MIT",
-	"scripts": {
-		"build:icons": "node build",
-		"build:dist": "rollup -c",
-		"build": "npm run build:icons && npm run build:dist",
-		"prepublishOnly": "npm run build"
-	},
-	"devDependencies": {
-		"@rollup/plugin-node-resolve": "^13.0.0",
-		"fs-extra": "^10.0.0",
-		"pascal-case": "^3.1.2",
-		"path": "^0.12.7",
-		"rollup": "latest",
-		"rollup-plugin-svelte": "latest",
-		"rollup-plugin-terser": "^7.0.2",
-		"svgo": "^2.3.0"
-	},
-	"keywords": [
-		"svelte",
-		"eva-icons",
-		"flaticon"
-	],
-	"dependencies": {
-		"svelte": "^3.38.2"
-	},
-	"bugs": {
-		"url": "https://github.com/Robak08/svelte-evaicons/issues"
-	},
-	"homepage": "https://github.com/Robak08/svelte-evaicons#readme"
+  "name": "svelte-uicons",
+  "description": "FlatIcon's Uicons port for Svelte",
+  "version": "0.0.2",
+  "author": "Robert Hamiga <robert.hamiga@gmail.com>",
+  "repository": {
+    "url": "git+https://github.com/robak08/svelte-uicons.git",
+    "type": "git"
+  },
+  "svelte": "src/index.js",
+  "module": "index.mjs",
+  "main": "index.js",
+  "files": [
+    "src",
+    "index.mjs",
+    "index.js",
+    "index.d.ts"
+  ],
+  "types": "index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build:icons": "node build",
+    "build:dist": "rollup -c",
+    "build": "npm run build:icons && npm run build:dist",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "fs-extra": "^10.0.0",
+    "pascal-case": "^3.1.2",
+    "path": "^0.12.7",
+    "rollup": "latest",
+    "rollup-plugin-svelte": "latest",
+    "rollup-plugin-terser": "^7.0.2",
+    "svgo": "^2.3.0"
+  },
+  "keywords": [
+    "svelte",
+    "uicons",
+    "flaticon"
+  ],
+  "dependencies": {
+    "svelte": "^3.38.2"
+  },
+  "bugs": {
+    "url": "https://github.com/robak08/svelte-uicons/issues"
+  },
+  "homepage": "https://github.com/robak08/svelte-uicons#readme"
 }

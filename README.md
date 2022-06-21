@@ -1,24 +1,26 @@
-# svelte-evaicons
+# svelte-uicons
 
-[svelte-eva-icons](https://github.com/dylanblokhuis/svelte-eva-icons/) remake with Svelte.
+[FlatIcon's Uicons](https://www.flaticon.com/uicons) port for Svelte. 
+
+Currently includes Regular Rounded icons only.
 
 ## Install
 
 ```bash
-yarn add -D @robakk08/svelte-evaicons
+yarn add -D svelte-uicons
 ```
 
 or use NPM
 
 ```bash
-npm install --save-dev @robakk08/svelte-evaicons
+npm install --save-dev svelte-uicons
 ```
 
 ## Usage
 
 ```html
 <script>
-	import { CheckmarkSquareOutlineIcon, CheckmarkSquareIcon, ... } from '@robakk08/svelte-evaicons'
+  import { ChessIcon, FlipHorizontalIcon, ... } from 'svelte-uicons'
 </script>
 
 <ChessIcon size="32" />
@@ -26,5 +28,4 @@ npm install --save-dev @robakk08/svelte-evaicons
 ```
 
 ## Credits
-
 Package heavily inspired by dylanblokhuis's [svelte-feather-icons](https://github.com/dylanblokhuis/svelte-feather-icons).

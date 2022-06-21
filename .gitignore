@@ -5,6 +5,4 @@ package-lock.json
 index.js
 index.mjs
 index.d.ts
-src/svg
-src/parseIcons.js
-src/icons.json
+src/rounded

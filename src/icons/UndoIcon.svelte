@@ -1,14 +1,14 @@
 <script>
   export let size = "100%";
+  export let strokeWidth = 0;
   let customClass = "";
   export { customClass as class };
-  
+
   if (size !== "100%") {
     size = size.slice(-1) === 'x' 
-    ? size.slice(0, size.length -1) + 'em'
-    : parseInt(size) + 'px';
+          ? size.slice(0, size.length -1) + 'em'
+          : parseInt(size) + 'px';
   }
-  </script>
-  
-  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="currentColor" viewBox="0 0 24 24" class="evaicon evaicon-undo {customClass}"><g data-name="Layer 2"><path d="M20.22 21a1 1 0 0 1-1-.76 8.91 8.91 0 0 0-7.8-6.69v1.12a1.78 1.78 0 0 1-1.09 1.64A2 2 0 0 1 8.18 16l-5.06-4.41a1.76 1.76 0 0 1 0-2.68l5.06-4.42a2 2 0 0 1 2.18-.3 1.78 1.78 0 0 1 1.09 1.64V7A10.89 10.89 0 0 1 21.5 17.75a10.29 10.29 0 0 1-.31 2.49 1 1 0 0 1-1 .76z" data-name="undo"/></g></svg>
-  
+</script>
+
+<svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="#000" viewBox="0 0 24 24"  stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-undo {customClass}"><path d="M23 24a1 1 0 0 1-1-1 6.006 6.006 0 0 0-6-6h-5.83v1.586A2 2 0 0 1 6.756 20L.877 14.121a3 3 0 0 1 0-4.242L6.756 4a2 2 0 0 1 3.414 1.414V7H15a9.01 9.01 0 0 1 9 9v7a1 1 0 0 1-1 1zM8.17 5.414l-5.879 5.879a1 1 0 0 0 0 1.414l5.879 5.879V16a1 1 0 0 1 1-1H16a7.984 7.984 0 0 1 6 2.714V16a7.008 7.008 0 0 0-7-7H9.17a1 1 0 0 1-1-1z"/></svg>

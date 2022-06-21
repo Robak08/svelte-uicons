@@ -1,14 +1,14 @@
 <script>
   export let size = "100%";
+  export let strokeWidth = 0;
   let customClass = "";
   export { customClass as class };
-  
+
   if (size !== "100%") {
     size = size.slice(-1) === 'x' 
-    ? size.slice(0, size.length -1) + 'em'
-    : parseInt(size) + 'px';
+          ? size.slice(0, size.length -1) + 'em'
+          : parseInt(size) + 'px';
   }
-  </script>
-  
-  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="currentColor" viewBox="0 0 24 24" class="evaicon evaicon-shuffle {customClass}"><g data-name="Layer 2"><g data-name="shuffle"><path d="M18 9.31a1 1 0 0 0 1 1 1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-4.3a1 1 0 0 0-1 1 1 1 0 0 0 1 1h1.89L12 10.59 6.16 4.76a1 1 0 0 0-1.41 1.41L10.58 12l-6.29 6.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L18 7.42z"/><path d="M19 13.68a1 1 0 0 0-1 1v1.91l-2.78-2.79a1 1 0 0 0-1.42 1.42L16.57 18h-1.88a1 1 0 0 0 0 2H19a1 1 0 0 0 1-1.11v-4.21a1 1 0 0 0-1-1z"/></g></g></svg>
-  
+</script>
+
+<svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="#000" viewBox="0 0 24 24"  stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-shuffle {customClass}"><path d="m23.421 16.583-3.291-3.291a1 1 0 1 0-1.413 1.414L21.007 17a9.332 9.332 0 0 1-6.686-2.8.982.982 0 0 0-1.408.08l-.013.02a1 1 0 0 0 .075 1.382A11.177 11.177 0 0 0 21.01 19l-2.293 2.293A1 1 0 1 0 20.13 22.7l3.291-3.291a2 2 0 0 0 0-2.826z"/><path d="m21.007 7-2.29 2.29a.892.892 0 0 0-.054.082.992.992 0 0 0 1.467 1.332L21.836 9l1.586-1.585a2 2 0 0 0 .457-2.1 1.969 1.969 0 0 0-.458-.728L20.13 1.3a1 1 0 1 0-1.413 1.413l2.293 2.292c-4.933.012-7.637 2.674-10.089 5.474C8.669 7.937 6 5.4 1.487 5.046L1.006 5a1 1 0 0 0-1 1 1.02 1.02 0 0 0 1 1c.072 0 .287.033.287.033C5.189 7.328 7.425 9.522 9.6 12c-2.162 2.466-4.383 4.7-8.247 4.96l-.4.021a.994.994 0 1 0 .124 1.985c.156-.007.41-.013.535-.023 5.02-.387 7.743-3.6 10.171-6.409C14.235 9.7 16.551 7.018 21.007 7z"/></svg>
