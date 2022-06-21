@@ -3,12 +3,13 @@
   export let strokeWidth = 0;
   let customClass = "";
   export { customClass as class };
-
+  
   if (size !== "100%") {
     size = size.slice(-1) === 'x' 
-          ? size.slice(0, size.length -1) + 'em'
-          : parseInt(size) + 'px';
+    ? size.slice(0, size.length -1) + 'em'
+    : parseInt(size) + 'px';
   }
-</script>
-
-<svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="#000" viewBox="0 0 24 24"  stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-grin-squint {customClass}"><path d="M17.555 7.832 15.8 9l1.752 1.168a1 1 0 1 1-1.11 1.664l-3-2a1.007 1.007 0 0 1 0-1.664l3-2a1 1 0 0 1 1.11 1.664ZM6.168 11.555a1 1 0 0 0 1.387.277l3-2a1.007 1.007 0 0 0 0-1.664l-3-2a1 1 0 1 0-1.11 1.664L8.2 9l-1.755 1.168a1 1 0 0 0-.277 1.387ZM24 12a12.013 12.013 0 0 1-12 12C-3.9 23.4-3.893.6 12 0a12.013 12.013 0 0 1 12 12Zm-2 0A10.011 10.011 0 0 0 12 2c-13.248.5-13.245 19.5 0 20a10.011 10.011 0 0 0 10-10Zm-5.211 2.024A15.4 15.4 0 0 1 12 15a15.4 15.4 0 0 1-4.8-.976 1 1 0 0 0-1.052 1.518A6.836 6.836 0 0 0 12 19a6.827 6.827 0 0 0 5.842-3.458 1 1 0 0 0-1.053-1.518Z"/></svg>
+  </script>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24"  stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-grin-squint {customClass}"><path d="M17.555 7.832 15.8 9l1.752 1.168a1 1 0 1 1-1.11 1.664l-3-2a1.007 1.007 0 0 1 0-1.664l3-2a1 1 0 0 1 1.11 1.664ZM6.168 11.555a1 1 0 0 0 1.387.277l3-2a1.007 1.007 0 0 0 0-1.664l-3-2a1 1 0 1 0-1.11 1.664L8.2 9l-1.755 1.168a1 1 0 0 0-.277 1.387ZM24 12a12.013 12.013 0 0 1-12 12C-3.9 23.4-3.893.6 12 0a12.013 12.013 0 0 1 12 12Zm-2 0A10.011 10.011 0 0 0 12 2c-13.248.5-13.245 19.5 0 20a10.011 10.011 0 0 0 10-10Zm-5.211 2.024A15.4 15.4 0 0 1 12 15a15.4 15.4 0 0 1-4.8-.976 1 1 0 0 0-1.052 1.518A6.836 6.836 0 0 0 12 19a6.827 6.827 0 0 0 5.842-3.458 1 1 0 0 0-1.053-1.518Z"/></svg>
+  
