@@ -11,5 +11,5 @@
   }
   </script>
   
-  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24"  stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-clock-one {customClass}"><path d="M12 24C5.383 24 0 18.617 0 12S5.383 0 12 0s12 5.383 12 12-5.383 12-12 12Zm0-22C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2Zm.793 10.609 2.437-3.172a1 1 0 1 0-1.586-1.218L13 9.057V6a1 1 0 1 0-2 0v6a1 1 0 0 0 1.793.609Z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24"  fill="currentColor" stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-clock-one {customClass}"><path d="M12 24C5.383 24 0 18.617 0 12S5.383 0 12 0s12 5.383 12 12-5.383 12-12 12Zm0-22C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2Zm.793 10.609 2.437-3.172a1 1 0 1 0-1.586-1.218L13 9.057V6a1 1 0 1 0-2 0v6a1 1 0 0 0 1.793.609Z"/></svg>
   

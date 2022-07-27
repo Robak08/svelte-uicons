@@ -20,7 +20,7 @@ const component = (icon) => `<script>
   
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="${
 		uicon[icon.name].viewbox || "0 0 24 24"
-	}"  stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-${
+	}"  fill="currentColor" stroke="currentColor" stroke-width="{strokeWidth}" stroke-linecap="round" stroke-linejoin="round" class="uicon uicon-${
 	icon.name
 } {customClass}">${uicon[icon.name].content}</svg>
   `;
