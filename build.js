@@ -1,8 +1,8 @@
-const path = require("path");
-const { pascalCase } = require("pascal-case");
-const fs = require("fs-extra");
+import fs from "fs-extra";
+import path from "path";
+import { pascalCase } from "change-case";
 
-const uicon = require("./src/rounded/icons.json");
+import uicon from "./src/rounded/icons.json" assert { type: "json" };
 const handleComponentName = (name) => name.replace(/\-(\d+)/, "$1");
 
 const component = (icon) => `<script>
@@ -27,8 +27,10 @@ const component = (icon) => `<script>
 
 const icons = Object.keys(uicon).map((name) => ({
 	name,
-	pascalCasedComponentName: pascalCase(`${handleComponentName(name)}-icon`),
-	kebabCasedComponentName: `${handleComponentName(name)}-icon`,
+	pascalCasedComponentName: pascalCase(
+		`${handleComponentName(name)}-rounded-icon`
+	),
+	kebabCasedComponentName: `${handleComponentName(name)}-rounded-icon`,
 }));
 
 Promise.all(
