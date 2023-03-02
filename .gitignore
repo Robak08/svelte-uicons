@@ -5,5 +5,5 @@ package-lock.json
 index.js
 index.mjs
 index.d.ts
-src/svg
-src/parsed
+src/svg/
+src/parsed/

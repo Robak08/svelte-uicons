@@ -44,11 +44,11 @@ Promise.all(
 		)
 		.join("\n\n");
 	await fs.outputFile(
-		"./src/exports/brands/index.d.ts",
+		"./src/compiled/brands/index.d.ts",
 		'///<reference types="svelte" />\n\n' + brands,
 		"utf8"
 	);
-	await fs.outputFile("./src/exports/brands/index.js", brands, "utf8");
+	await fs.outputFile("./src/compiled/brands/index.js", brands, "utf8");
 
 	const rr = rrArray
 		.map(
@@ -57,11 +57,11 @@ Promise.all(
 		)
 		.join("\n\n");
 	await fs.outputFile(
-		"./src/exports/rr/index.d.ts",
+		"./src/compiled/rr/index.d.ts",
 		'///<reference types="svelte" />\n\n' + rr,
 		"utf8"
 	);
-	await fs.outputFile("./src/exports/rr/index.js", rr, "utf8");
+	await fs.outputFile("./src/compiled/rr/index.js", rr, "utf8");
 
 	const sr = srArray
 		.map(
@@ -70,12 +70,12 @@ Promise.all(
 		)
 		.join("\n\n");
 	await fs.outputFile(
-		"./src/exports/sr/index.d.ts",
+		"./src/compiled/sr/index.d.ts",
 		'///<reference types="svelte" />\n\n' + sr,
 		"utf8"
 	);
-	await fs.outputFile("./src/exports/sr/index.js", sr, "utf8");
+	await fs.outputFile("./src/compiled/sr/index.js", sr, "utf8");
 
 	const main = `export * from './brands';\nexport * from './rr';\nexport * from './sr';`;
-	return await fs.outputFile("./src/exports/index.js", main, "utf8");
+	return await fs.outputFile("./src/compiled/index.js", main, "utf8");
 });

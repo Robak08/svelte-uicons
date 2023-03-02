@@ -43,7 +43,7 @@ const plugins = [svelte(), peerDepsExternal(), resolve(), commonjs(), terser()];
 
 export default [
 	{
-		input: ["src/exports/index.js"],
+		input: ["src/compiled/index.js"],
 		output: [
 			{
 				file: pkg.module,
@@ -55,7 +55,7 @@ export default [
 		plugins,
 	},
 	{
-		input: ["src/exports/index.js"],
+		input: ["src/compiled/index.js"],
 		output: [
 			{
 				file: pkg.main,
