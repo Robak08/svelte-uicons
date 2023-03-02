@@ -3,8 +3,8 @@ import terser from "@rollup/plugin-terser";
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
-import generatePackageJson from "rollup-plugin-generate-package-json";
-import { getFolders } from "./scripts/buildUtils.js";
+// import generatePackageJson from "rollup-plugin-generate-package-json";
+// import { getFolders } from "./scripts/buildUtils.js";
 
 import pkg from "./package.json" assert { type: "json" };
 
