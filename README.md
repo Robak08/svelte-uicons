@@ -2,7 +2,10 @@
 
 [FlatIcon's Uicons](https://www.flaticon.com/uicons) port for Svelte. 
 
-Currently includes Regular Rounded icons only.
+Icon packs included with corresponding import path:
+  - rounded regular ('svelte-uicons/rounded/regular')
+  - rounded solid ('svelte-uicons/rounded/solid')
+  - brands ('svelte-uicons/brands')
 
 ## Install
 
@@ -20,7 +23,7 @@ npm install --save-dev svelte-uicons
 
 ```html
 <script>
-  import { ChessIcon, FlipHorizontalIcon, ... } from 'svelte-uicons'
+  import { ChessIcon, FlipHorizontalIcon, ... } from 'svelte-uicons/rounded/regular'
 </script>
 
 <ChessIcon size="32" />

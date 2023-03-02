@@ -14,7 +14,8 @@
 	"module": "dist/index.mjs",
 	"typings": "dist/index.d.ts",
 	"files": [
-		"src",
+		"src/compiled",
+		"src/icons",
 		"dist"
 	],
 	"exports": {
@@ -28,7 +29,7 @@
 		"build:dist": "del-cli dist && rollup -c",
 		"post:build": "node scripts/frankBuild",
 		"build": "npm run build:prepare && npm run build:icons && npm run build:dist",
-		"prepublishOnly": "npm run build"
+		"xprepublishOnly": "npm run build"
 	},
 	"devDependencies": {
 		"@rollup/plugin-commonjs": "^24.0.1",
